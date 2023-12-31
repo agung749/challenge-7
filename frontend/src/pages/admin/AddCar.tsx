@@ -129,7 +129,7 @@ const AddCar: React.FC = () => {
     <Admin>
       <div className="container">
         <h2 className="mt-3">Car Form Page</h2>
-        // ... (previous code)
+     
 
 <form onSubmit={handleSubmit} encType="multipart/form-data">
   <div className="mb-3">
@@ -326,7 +326,6 @@ const AddCar: React.FC = () => {
   </button>
 </form>
 
-// ... (rest of your component)
 
         {submittedData && (
           <div className="mt-3">
